@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulo"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/tituloLista"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="@dimen/AlturaImagen"
+            android:background="@color/colorZul"
+            android:layout_height="@dimen/Linea"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Titulo"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_marginBottom="@dimen/fab_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Titulolista"
+            android:textStyle="bold"
+            android:id="@+id/descripcion"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <View
+            android:layout_width="@dimen/AlturaImagen"
+            android:background="@color/colorPrimary"
+            android:layout_height="@dimen/Linea"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Descripcion"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_marginBottom="@dimen/fab_margin"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Comentarios"
+            android:textStyle="bold"
+
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Comentarios"
+            android:id="@+id/comentarios"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_marginBottom="@dimen/fab_margin"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="@dimen/AlturaImagen"
+                android:layout_weight="0.9"
+                android:id="@+id/txtcomentario"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/AgregeComentario"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:id="@+id/agregar"
+            android:text="@string/AGR"
+            android:layout_gravity="center"
+            android:background="@color/colorNaranJaCalro"/>
+    </LinearLayout>
+
+</ScrollView>

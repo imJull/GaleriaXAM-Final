@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Galeria</string>
+    <string name="action_settings">Settings</string>
+    <string name="TituloGal">SK8</string>
+    <string name="tituloLista">Titulo</string>
+    <string name="Titulo">Compañia</string>
+    <string name="Titulolista">Descripcion corta</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Comentarios">Comentarios</string>
+    <string name="AgregeComentario">Comentario Nuevo</string>
+    <string name="AGR">AGREGAR</string>
+    <string name="Detalle">detalle</string>
+    <string name="ingTitulo">Titulo</string>
+    <string name="ingDescripcion">Ingrese Descripcion</string>
+    <string name="ingcOMENTARIO">Ingrese comentario</string>
+
+</resources>
